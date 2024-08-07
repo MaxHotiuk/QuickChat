@@ -1,0 +1,12 @@
+/Users/maxhotiuk/Desktop/QuickChat/Shared/bin/Debug/net6.0/QuickChat.Shared.deps.json
+/Users/maxhotiuk/Desktop/QuickChat/Shared/bin/Debug/net6.0/QuickChat.Shared.dll
+/Users/maxhotiuk/Desktop/QuickChat/Shared/bin/Debug/net6.0/QuickChat.Shared.pdb
+/Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/QuickChat.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/QuickChat.Shared.AssemblyInfoInputs.cache
+/Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/QuickChat.Shared.AssemblyInfo.cs
+/Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/QuickChat.Shared.csproj.CoreCompileInputs.cache
+/Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/QuickChat.Shared.sourcelink.json
+/Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/QuickChat.Shared.dll
+/Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/refint/QuickChat.Shared.dll
+/Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/QuickChat.Shared.pdb
+/Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/ref/QuickChat.Shared.dll
