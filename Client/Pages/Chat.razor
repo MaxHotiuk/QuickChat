@@ -16,8 +16,8 @@
 </ul>
 
 @code {
-    private string user;
-    private string message;
+    private string? user;
+    private string? message;
     private List<string> messages = new List<string>();
 
     protected override async Task OnInitializedAsync()
@@ -34,15 +34,18 @@
 
     private async Task SendMessage()
     {
-        await ChatService.SendMessage(user, message);
+        if (user != null && message != null)
+        {
+            await ChatService.SendMessage(user, message);
+        }
         message = string.Empty;
     }
 
-    private void HandleKeyPress(KeyboardEventArgs e)
+    private async Task HandleKeyPress(KeyboardEventArgs e)
     {
         if (e.Key == "Enter")
         {
-            SendMessage();
+            await SendMessage();
         }
     }
 }

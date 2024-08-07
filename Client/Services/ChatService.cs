@@ -13,7 +13,7 @@ namespace QuickChat.Client.Services
         public async Task StartAsync()
         {
             _hubConnection = new HubConnectionBuilder()
-                .WithUrl("//https://mango-flower-07cf40d10.5.azurestaticapps.net/chathub")
+                .WithUrl("https://mango-flower-07cf40d10.5.azurestaticapps.net/chathub")
                 .Build();
 
             _hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
