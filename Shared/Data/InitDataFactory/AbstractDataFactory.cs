@@ -1,23 +1,25 @@
-namespace Shared.Data.InitDataFactory;
-using Shared.Entities;
-
-/// <summary>
-/// Represents an abstract data factory.
-/// </summary>
-public abstract class AbstractDataFactory
+namespace QuickChat.Shared.Data.InitDataFactory
 {
-    /// <summary>
-    /// Gets the user data.
-    /// </summary>
-    public abstract User[] GetUserData();
+    using QuickChat.Shared.Entities;
 
     /// <summary>
-    /// Gets the chat data.
+    /// Represents an abstract data factory.
     /// </summary>
-    public abstract Chat[] GetChatData();
+    public abstract class AbstractDataFactory
+    {
+        /// <summary>
+        /// Gets the user data.
+        /// </summary>
+        public abstract User[] GetUserData();
 
-    /// <summary>
-    /// Gets the message data.
-    /// </summary>
-    public abstract Message[] GetMessageData();
+        /// <summary>
+        /// Gets the chat data.
+        /// </summary>
+        public abstract Chat[] GetChatData();
+
+        /// <summary>
+        /// Gets the message data.
+        /// </summary>
+        public abstract Message[] GetMessageData();
+    }
 }

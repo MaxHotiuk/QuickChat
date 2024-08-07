@@ -1,44 +1,46 @@
-namespace Server.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Server.Models;
-
-/// <summary>
-/// Interface for CRUD operations on AbstractModel entities.
-/// </summary>
-public interface ICrud
+namespace QuickChat.Server.Interfaces
 {
-    /// <summary>
-    /// Retrieves all entities.
-    /// </summary>
-    /// <returns>An enumerable collection of all entities.</returns>
-    IEnumerable<AbstractModel> GetAll();
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    using QuickChat.Server.Models;
 
     /// <summary>
-    /// Retrieves an entity by its ID.
+    /// Interface for CRUD operations on AbstractModel entities.
     /// </summary>
-    /// <param name="id">The ID of the entity to retrieve.</param>
-    /// <returns>The entity with the specified ID.</returns>
-    AbstractModel GetById(int id);
+    public interface ICrud
+    {
+        /// <summary>
+        /// Retrieves all entities.
+        /// </summary>
+        /// <returns>An enumerable collection of all entities.</returns>
+        IEnumerable<AbstractModel> GetAll();
 
-    /// <summary>
-    /// Adds a new entity.
-    /// </summary>
-    /// <param name="model">The entity to add.</param>
-    void Add(AbstractModel model);
+        /// <summary>
+        /// Retrieves an entity by its ID.
+        /// </summary>
+        /// <param name="id">The ID of the entity to retrieve.</param>
+        /// <returns>The entity with the specified ID.</returns>
+        AbstractModel GetById(int id);
 
-    /// <summary>
-    /// Updates an existing entity.
-    /// </summary>
-    /// <param name="model">The entity to update.</param>
-    void Update(AbstractModel model);
+        /// <summary>
+        /// Adds a new entity.
+        /// </summary>
+        /// <param name="model">The entity to add.</param>
+        void Add(AbstractModel model);
 
-    /// <summary>
-    /// Deletes an entity by its ID.
-    /// </summary>
-    /// <param name="modelId">The ID of the entity to delete.</param>
-    void Delete(int modelId);
+        /// <summary>
+        /// Updates an existing entity.
+        /// </summary>
+        /// <param name="model">The entity to update.</param>
+        void Update(AbstractModel model);
+
+        /// <summary>
+        /// Deletes an entity by its ID.
+        /// </summary>
+        /// <param name="modelId">The ID of the entity to delete.</param>
+        void Delete(int modelId);
+    }
 }

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Shared.Data;
-using Shared.Entities;
-using Shared.Interfaces;
+using QuickChat.Shared.Data;
+using QuickChat.Shared.Entities;
+using QuickChat.Shared.Interfaces;
 
-namespace Shared.Repository
+namespace QuickChat.Shared.Repository
 {
     /// <summary>
     /// Represents a repository for handling User entities.

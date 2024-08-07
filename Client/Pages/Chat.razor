@@ -1,5 +1,7 @@
 @page "/chat"
 @using QuickChat.Client.Services
+@using QuickChat.Shared.Data
+@using Microsoft.AspNetCore.SignalR.Client
 @inject ChatService ChatService
 
 <h3>Chat</h3>
@@ -34,7 +36,7 @@
 
     private async Task SendMessage()
     {
-        if (user != null && message != null)
+        if (user != null && !string.IsNullOrEmpty(message))
         {
             await ChatService.SendMessage(user, message);
         }
