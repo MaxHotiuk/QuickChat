@@ -1,4 +1,4 @@
-namespace Server.Models;
+namespace QuickChat.Shared.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

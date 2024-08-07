@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-namespace Shared.Entities;
+namespace QuickChat.Shared.Entities;
 
 /// <summary>
 /// Represents a message entity.

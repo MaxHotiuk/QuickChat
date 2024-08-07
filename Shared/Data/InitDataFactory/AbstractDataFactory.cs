@@ -1,5 +1,5 @@
-namespace Shared.Data.InitDataFactory;
-using Shared.Entities;
+namespace QuickChat.Shared.Data.InitDataFactory;
+using QuickChat.Shared.Entities;
 
 /// <summary>
 /// Represents an abstract data factory.

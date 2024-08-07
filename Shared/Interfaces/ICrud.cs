@@ -1,10 +1,10 @@
-namespace Server.Interfaces;
+namespace QuickChat.Shared.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Server.Models;
+using QuickChat.Shared.Models;
 
 /// <summary>
 /// Interface for CRUD operations on AbstractModel entities.

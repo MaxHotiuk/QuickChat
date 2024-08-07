@@ -1,7 +1,7 @@
-namespace Shared.Interfaces;
+namespace QuickChat.Shared.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Shared.Entities;
+using QuickChat.Shared.Entities;
 
 /// <summary>
 /// Represents a repository interface for handling Message entities.

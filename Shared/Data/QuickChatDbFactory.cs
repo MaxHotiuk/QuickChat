@@ -1,8 +1,8 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using Shared.Data.InitDataFactory;
+using QuickChat.Shared.Data.InitDataFactory;
 
-namespace Shared.Data
+namespace QuickChat.Shared.Data
 {
     /// <summary>
     /// Factory for creating and configuring instances of QuickChatDbContext.

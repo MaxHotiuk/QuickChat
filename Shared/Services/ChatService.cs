@@ -1,15 +1,14 @@
-namespace Server.Services;
+namespace QuickChat.Shared.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Server.Interfaces;
-using Server.Models;
-using Shared.Data;
-using Shared.Entities;
-using Shared.Interfaces;
-using Shared.Repository;
+using QuickChat.Shared.Interfaces;
+using QuickChat.Shared.Models;
+using QuickChat.Shared.Data;
+using QuickChat.Shared.Entities;
+using QuickChat.Shared.Repository;
 
 /// <summary>
 /// Service class for managing chats implementing the <see cref="ICrud"/> interface.

@@ -1,4 +1,4 @@
-namespace Shared.Data;
+namespace QuickChat.Shared.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,8 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
-using Shared.Data.InitDataFactory;
-using Shared.Entities;
+using QuickChat.Shared.Data.InitDataFactory;
+using QuickChat.Shared.Entities;
 
 /// <summary>
 /// Represents the database context for the QuickChat application.

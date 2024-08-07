@@ -1,5 +1,5 @@
-namespace Shared.Data.InitDataFactory;
-using Shared.Entities;
+namespace QuickChat.Shared.Data.InitDataFactory;
+using QuickChat.Shared.Entities;
 
 /// <summary>
 /// Concrete implementation of AbstractDataFactory for providing test data arrays.

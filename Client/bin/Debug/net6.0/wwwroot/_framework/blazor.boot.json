@@ -1,7 +1,7 @@
 {
   "entryAssembly": "QuickChat.Client",
   "resources": {
-    "hash": "sha256-dEjUrsPTfAm1/PH1WiTGgfeNUrFuFAwyApwMk5GBd5Q=",
+    "hash": "sha256-YY3B6PXS4kySHmbL9dv5fz8OwfHFSmvpXL3yJdXUueo=",
     "runtime": {
       "dotnet.6.0.31.1jx0c6bp8n.js": "sha256-k3r5KPTTMlxe9KmBUGXolEPkii6jv/+oC1SOmed3LVc=",
       "dotnet.timezones.blat": "sha256-noxiDysKmbcNb8gHnNG6cYvM6Ies6JlarpF1lK0YTtY=",
@@ -237,12 +237,12 @@
       "mscorlib.dll": "sha256-er6cLjOyu1s02HPaReJi0KkBwOSQyQ0/T8lVwYrQmwE=",
       "netstandard.dll": "sha256-UjAkjmlOWOKd1d6UaAYFH6rO8pqwuoCKrs8+TW10Xvk=",
       "System.Private.CoreLib.dll": "sha256-uAJxx8FtA3E57cEa87ZsxFWqQmHkAYyH5WNbmii0koQ=",
-      "QuickChat.Shared.dll": "sha256-qUTLjF5My2kSLjsCkDfnGM2ZwErn8/dgJS0vUEVaoTg=",
-      "QuickChat.Client.dll": "sha256-XrKhkNPqC3j/fY3Lc7VwxFJWYMXXrheGClUDlOfbKE4="
+      "QuickChat.Shared.dll": "sha256-nb8RBQI0ESX0hqLAo017E45nIlj0JED5PwN/8M+pGDQ=",
+      "QuickChat.Client.dll": "sha256-LvHcncAc50BjwM6hrFDz5qO+z/yy70dY5EamrdNojdI="
     },
     "pdb": {
-      "QuickChat.Shared.pdb": "sha256-DdbgcTdg6xpHiGmraNlxiNfLzjqnGk4j1Ajd8wScHF4=",
-      "QuickChat.Client.pdb": "sha256-QRCRM8W+UPwDV5/7O2bgENfCV8ZVw4w2d3vuZCiwa/Y="
+      "QuickChat.Shared.pdb": "sha256-v3wG6/BUy97Uo+6Z2585ww1jl/MjuLFn7E79CYCKcpc=",
+      "QuickChat.Client.pdb": "sha256-N/+UHTUKla7ffyBoz/lJgMiNbB3JY+4qAEQXJCchqP0="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

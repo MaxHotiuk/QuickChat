@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Shared.Data;
+using QuickChat.Shared.Data;
 
-namespace Shared.Repository
+namespace QuickChat.Shared.Repository
 {
     /// <summary>
     /// Represents an abstract base class for repository implementations.

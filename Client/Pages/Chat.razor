@@ -34,10 +34,11 @@
 
     private async Task SendMessage()
     {
-        if (user != null && message != null)
+        if (user != null && !String.IsNullOrEmpty(message))
         {
             await ChatService.SendMessage(user, message);
         }
+
         message = string.Empty;
     }
 
