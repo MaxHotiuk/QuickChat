@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.DependencyInjection;
-using QuickChat.Server.Hubs;
+using Server.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,11 +18,6 @@ builder.Services.AddCors(options =>
                   .AllowAnyMethod()
                   .AllowAnyHeader();
         });
-});
-builder.Services.AddResponseCompression(options =>
-{
-    options.Providers.Add<BrotliCompressionProvider>();
-    options.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(new[] { "application/octet-stream" });
 });
 
 var app = builder.Build();
@@ -47,9 +42,7 @@ app.UseRouting();
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapBlazorHub();
     endpoints.MapHub<ChatHub>("/chathub");
-    endpoints.MapFallbackToPage("/_Host");
 });
 
 app.MapRazorPages();

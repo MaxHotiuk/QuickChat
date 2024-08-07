@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.SignalR;
 using System.Threading.Tasks;
 
-namespace QuickChat.Server.Hubs
+namespace Server.Hubs
 {
     public class ChatHub : Hub
     {

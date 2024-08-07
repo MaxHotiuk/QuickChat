@@ -1,14 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "Hash": "+A5DGMQulmOs8NSmhvNB1mNKXfOnuHxKwUE25CI84Fk=",
-=======
-  "Hash": "miwEDcQ8KYDzv2xweYNUNZx/hgSqn9ED8IUwgAgE1jQ=",
->>>>>>> parent of 98757fe (redirected some files.)
-=======
-  "Hash": "miwEDcQ8KYDzv2xweYNUNZx/hgSqn9ED8IUwgAgE1jQ=",
->>>>>>> parent of 98757fe (redirected some files.)
+  "Hash": "oSka3vwo3ztymeTOxM8oekbsXKN7tOrmuAoe0tlAmjY=",
   "Source": "QuickChat.Server",
   "BasePath": "_content/QuickChat.Server",
   "Mode": "Default",

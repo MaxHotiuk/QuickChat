@@ -1,15 +1,7 @@
 {
   "entryAssembly": "QuickChat.Client",
   "resources": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "hash": "sha256-U4/XzVQ3olIZBeUZG3UyQbbR4ZfDS/J/EXGIUXZefO0=",
-=======
-    "hash": "sha256-KICKIGOG3MJyfOebNlOm4dkFbmqAD/pFjgNdDmhuIaA=",
->>>>>>> parent of 98757fe (redirected some files.)
-=======
-    "hash": "sha256-KICKIGOG3MJyfOebNlOm4dkFbmqAD/pFjgNdDmhuIaA=",
->>>>>>> parent of 98757fe (redirected some files.)
+    "hash": "sha256-YY3B6PXS4kySHmbL9dv5fz8OwfHFSmvpXL3yJdXUueo=",
     "runtime": {
       "dotnet.6.0.31.1jx0c6bp8n.js": "sha256-k3r5KPTTMlxe9KmBUGXolEPkii6jv/+oC1SOmed3LVc=",
       "dotnet.timezones.blat": "sha256-noxiDysKmbcNb8gHnNG6cYvM6Ies6JlarpF1lK0YTtY=",
@@ -245,30 +237,12 @@
       "mscorlib.dll": "sha256-er6cLjOyu1s02HPaReJi0KkBwOSQyQ0/T8lVwYrQmwE=",
       "netstandard.dll": "sha256-UjAkjmlOWOKd1d6UaAYFH6rO8pqwuoCKrs8+TW10Xvk=",
       "System.Private.CoreLib.dll": "sha256-uAJxx8FtA3E57cEa87ZsxFWqQmHkAYyH5WNbmii0koQ=",
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "QuickChat.Shared.dll": "sha256-RLmqyeMVDPl47Qwa8aRT9rx1HUyshfeezFuaKCHVLjk=",
-      "QuickChat.Client.dll": "sha256-l8Dx+N7F6QoI2IpOEf141eQIUrwoQARCOZNbuahYhME="
+      "QuickChat.Shared.dll": "sha256-nb8RBQI0ESX0hqLAo017E45nIlj0JED5PwN/8M+pGDQ=",
+      "QuickChat.Client.dll": "sha256-LvHcncAc50BjwM6hrFDz5qO+z/yy70dY5EamrdNojdI="
     },
     "pdb": {
-      "QuickChat.Shared.pdb": "sha256-/OIQdFWyEsCXxLvDKQXjS0prVUOtSY+V00+RfmkokD0=",
-      "QuickChat.Client.pdb": "sha256-DHrZtbX5vP4mYFD7XeeQMURc8BsFK0RRLMJge27jacA="
-=======
-      "QuickChat.Shared.dll": "sha256-U8dK/5yJxIi3TVkWU9OUlMHaIvxAOPkd0tf9YzK0bhg=",
-      "QuickChat.Client.dll": "sha256-60mlqqkUAMPE9vpfgjfXyKavipaUX1yiLFxXiy/fsVE="
-    },
-    "pdb": {
-      "QuickChat.Shared.pdb": "sha256-rNT9iGj2cQbvB6xjgpJApZS6CRAPwhYayZzW9nIbSns=",
-      "QuickChat.Client.pdb": "sha256-9d7l2vQLyJ7cKRA+9T9XHdrkMZiatLfaH3en6fmki50="
->>>>>>> parent of 98757fe (redirected some files.)
-=======
-      "QuickChat.Shared.dll": "sha256-U8dK/5yJxIi3TVkWU9OUlMHaIvxAOPkd0tf9YzK0bhg=",
-      "QuickChat.Client.dll": "sha256-60mlqqkUAMPE9vpfgjfXyKavipaUX1yiLFxXiy/fsVE="
-    },
-    "pdb": {
-      "QuickChat.Shared.pdb": "sha256-rNT9iGj2cQbvB6xjgpJApZS6CRAPwhYayZzW9nIbSns=",
-      "QuickChat.Client.pdb": "sha256-9d7l2vQLyJ7cKRA+9T9XHdrkMZiatLfaH3en6fmki50="
->>>>>>> parent of 98757fe (redirected some files.)
+      "QuickChat.Shared.pdb": "sha256-v3wG6/BUy97Uo+6Z2585ww1jl/MjuLFn7E79CYCKcpc=",
+      "QuickChat.Client.pdb": "sha256-N/+UHTUKla7ffyBoz/lJgMiNbB3JY+4qAEQXJCchqP0="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
