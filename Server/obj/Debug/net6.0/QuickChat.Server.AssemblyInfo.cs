@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuickChat.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5668cdf607a863ec5c08d8a7a712d90cd5460ac7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccc9a0c7ae3c754b49c709b0d4d515b23e16a626")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuickChat.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuickChat.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
