@@ -1,16 +1,13 @@
 @page "/chat"
-@using Microsoft.AspNetCore.Components.Web
+@using QuickChat.Client.Services
+@inject ChatService ChatService
 
-<PageTitle>Chat</PageTitle>
+<h3>Chat</h3>
 
-<h1>Chat</h1>
+<input @bind="user" placeholder="User" />
+<input @bind="message" placeholder="Message" @onkeypress="HandleKeyPress" />
+<button @onclick="SendMessage">Send</button>
 
-<p>Chat with other users in real-time.</p>
-
-<div>
-    <input type="text" @bind="@message" />
-    <button @onclick="SendMessage">Send</button>
-</div>
 <ul>
     @foreach (var msg in messages)
     {
@@ -19,15 +16,33 @@
 </ul>
 
 @code {
-    private List<string> messages = new List<string>();
+    private string user;
     private string message;
+    private List<string> messages = new List<string>();
 
-    private void SendMessage()
+    protected override async Task OnInitializedAsync()
     {
-        if (!string.IsNullOrWhiteSpace(message))
+        ChatService.MessageReceived += (user, message) =>
         {
-            messages.Add(message);
-            message = string.Empty;
+            var encodedMessage = $"{user}: {message}";
+            messages.Add(encodedMessage);
+            InvokeAsync(StateHasChanged);
+        };
+
+        await ChatService.StartAsync();
+    }
+
+    private async Task SendMessage()
+    {
+        await ChatService.SendMessage(user, message);
+        message = string.Empty;
+    }
+
+    private void HandleKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            SendMessage();
         }
     }
 }

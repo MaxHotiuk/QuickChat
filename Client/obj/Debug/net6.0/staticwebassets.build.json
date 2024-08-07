@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V88+1LLE9qms3VC3mZpW87wIz4gcnqKMf5MEXYRGdmw=",
+  "Hash": "s9qQw9bL15EtPThpS85ghfaB/i9AVAxjm4SYGAGxRtY=",
   "Source": "QuickChat.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -283,6 +283,63 @@
       "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.aspnetcore.components.webassembly/6.0.9/lib/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Connections.Abstractions.dll",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Connections.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.aspnetcore.connections.abstractions/8.0.7/lib/netstandard2.1/Microsoft.AspNetCore.Connections.Abstractions.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Http.Connections.Client.dll",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Connections.Client.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.aspnetcore.http.connections.client/8.0.7/lib/netstandard2.1/Microsoft.AspNetCore.Http.Connections.Client.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Http.Connections.Common.dll",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Connections.Common.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.aspnetcore.http.connections.common/8.0.7/lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll"
+    },
+    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -300,6 +357,120 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.aspnetcore.metadata/6.0.9/lib/net6.0/Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.aspnetcore.signalr.client.core/8.0.7/lib/netstandard2.1/Microsoft.AspNetCore.SignalR.Client.Core.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Client.dll",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Client.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.aspnetcore.signalr.client/8.0.7/lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Common.dll",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Common.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.aspnetcore.signalr.common/8.0.7/lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.aspnetcore.signalr.protocols.json/8.0.7/lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Bcl.AsyncInterfaces.dll",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Bcl.AsyncInterfaces.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.bcl.asyncinterfaces/8.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Bcl.TimeProvider.dll",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Bcl.TimeProvider.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.bcl.timeprovider/8.0.1/lib/netstandard2.0/Microsoft.Bcl.TimeProvider.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.CSharp.dll",
@@ -603,7 +774,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll",
@@ -622,7 +793,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.1/lib/net6.0/Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/lib/net6.0/Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyModel.dll",
@@ -642,6 +813,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.dependencymodel/6.0.0/lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Features.dll",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Features.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.features/8.0.7/lib/netstandard2.0/Microsoft.Extensions.Features.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -717,7 +907,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.2/lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.1/lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.dll",
@@ -736,7 +926,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.logging/6.0.0/lib/netstandard2.1/Microsoft.Extensions.Logging.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.logging/8.0.0/lib/net6.0/Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Options.dll",
@@ -755,7 +945,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.options/6.0.0/lib/netstandard2.1/Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.options/8.0.2/lib/net6.0/Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll",
@@ -774,7 +964,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.primitives/6.0.0/lib/net6.0/Microsoft.Extensions.Primitives.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.extensions.primitives/8.0.0/lib/net6.0/Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Identity.Client.dll",
@@ -2199,7 +2389,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/system.io.pipelines/6.0.3/lib/net6.0/System.IO.Pipelines.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/system.io.pipelines/8.0.0/lib/net6.0/System.IO.Pipelines.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipes.AccessControl.dll",
@@ -3814,7 +4004,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.31/runtimes/browser-wasm/lib/net6.0/System.Text.Encodings.Web.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/system.text.encodings.web/8.0.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Json.dll",
@@ -3833,7 +4023,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.31/runtimes/browser-wasm/lib/net6.0/System.Text.Json.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/system.text.json/8.0.4/lib/net6.0/System.Text.Json.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.RegularExpressions.dll",
@@ -3871,7 +4061,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/6.0.31/runtimes/browser-wasm/lib/net6.0/System.Threading.Channels.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/.nuget/packages/system.threading.channels/8.0.0/lib/net6.0/System.Threading.Channels.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.dll",
@@ -4444,6 +4634,44 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.Parallel.dll"
     },
     {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/0pbhe3n4ih.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Text.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Json.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/0smi2ockmb.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Features.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Features.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Features.dll"
+    },
+    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/0wnv7sgktz.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -4596,25 +4824,6 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Drawing.Primitives.dll"
     },
     {
-      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/1x99nbfusp.gz",
-      "SourceId": "QuickChat.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll"
-    },
-    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/26x3cd8x12.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -4729,6 +4938,25 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/SQLitePCLRaw.provider.e_sqlite3.dll"
     },
     {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/2h49oc7yvu.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Client.Core.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Client.Core.dll"
+    },
+    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/2l34qlquzu.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -4784,6 +5012,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.Serialization.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/37rf27cif7.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Text.Encodings.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encodings.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encodings.Web.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/39igdxxp16.gz",
@@ -5242,6 +5489,25 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.dll"
     },
     {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/73q7auanuk.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/7di4ifj97o.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -5335,6 +5601,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Loader.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/80fy73jkja.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Client.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Client.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Client.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/84qgl0y1my.gz",
@@ -5470,6 +5755,25 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Metadata.dll"
     },
     {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/8nmizcg8gh.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Bcl.TimeProvider.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Bcl.TimeProvider.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Bcl.TimeProvider.dll"
+    },
+    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/8q32ljn8ej.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -5525,6 +5829,44 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Algorithms.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/97t1kwsqv7.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/9nb7mv2jcc.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Connections.Common.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Http.Connections.Common.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Http.Connections.Common.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/9ruup4yz4b.gz",
@@ -5793,25 +6135,6 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.NetworkInformation.dll"
     },
     {
-      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/bn48b4xa1v.gz",
-      "SourceId": "QuickChat.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.dll"
-    },
-    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/bqh6d1pt5b.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -5829,6 +6152,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.Primitives.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/c3ngg4zpp7.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/c6blr67ncv.gz",
@@ -6496,6 +6838,44 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.TypeExtensions.dll"
     },
     {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/gg1gdjhx83.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipelines.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipelines.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/gpfrgqlbsj.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Common.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Common.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Common.dll"
+    },
+    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/gtfin2zq50.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -6591,6 +6971,25 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.CoreLib.dll"
     },
     {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/hqqkr19kmd.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Connections.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Connections.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Connections.Abstractions.dll"
+    },
+    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/hse2ocp9aa.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -6646,25 +7045,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.Queryable.dll"
-    },
-    {
-      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/ifld8skg01.gz",
-      "SourceId": "QuickChat.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/ipouc7zbmo.gz",
@@ -6857,6 +7237,25 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.AccessControl.dll"
     },
     {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/kyhnqw1r13.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
+    },
+    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/kzl1gfps46.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -7028,6 +7427,25 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Process.dll"
     },
     {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/mn3v1pnual.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.dll"
+    },
+    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/mrpq5yesmc.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -7161,6 +7579,25 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Xml.dll"
     },
     {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/nus63ov539.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Http.Connections.Client.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Http.Connections.Client.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Http.Connections.Client.dll"
+    },
+    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/nw70fvyphm.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -7275,23 +7712,23 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Transactions.dll"
     },
     {
-      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/owzaleevqi.gz",
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/ozxlasf49b.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/System.Text.Encodings.Web.dll.gz",
+      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encodings.Web.dll",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encodings.Web.dll"
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/p42bnswxsl.gz",
@@ -7579,25 +8016,6 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Caching.Abstractions.dll"
     },
     {
-      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/r7ghys9h6o.gz",
-      "SourceId": "QuickChat.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Text.Json.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Json.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Json.dll"
-    },
-    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/r9qon8dqaq.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -7691,6 +8109,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Formatters.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/rxwm6wkee5.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Bcl.AsyncInterfaces.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Bcl.AsyncInterfaces.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Bcl.AsyncInterfaces.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/rzrq5fb1qh.gz",
@@ -7805,6 +8242,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebSockets.dll"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/stmr3g95ng.gz",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Options.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/sv7u297z75.gz",
@@ -8111,25 +8567,6 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Data.Sqlite.dll"
     },
     {
-      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/upgor2pave.gz",
-      "SourceId": "QuickChat.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Options.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Options.dll"
-    },
-    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/uq7famlbuy.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -8147,25 +8584,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/SQLitePCLRaw.core.dll"
-    },
-    {
-      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/uw0cj7xv63.gz",
-      "SourceId": "QuickChat.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/uxbdl12sk9.gz",
@@ -8396,25 +8814,6 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Console.dll"
     },
     {
-      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/wzl7ei9vt1.gz",
-      "SourceId": "QuickChat.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipelines.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipelines.dll"
-    },
-    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/x4wk4ry7ti.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -8605,25 +9004,6 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.dll"
     },
     {
-      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/yc59oicnw8.gz",
-      "SourceId": "QuickChat.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/ydz29yfa61.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
@@ -8662,7 +9042,7 @@
       "OriginalItemSpec": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/_framework/QuickChat.Shared.dll"
     },
     {
-      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/z3t0el1w45.gz",
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/obj/Debug/net6.0/compressed/ysctb9uxrs.gz",
       "SourceId": "QuickChat.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/bin/Debug/net6.0/wwwroot/",
