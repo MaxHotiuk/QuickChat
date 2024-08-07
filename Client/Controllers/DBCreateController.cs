@@ -1,4 +1,4 @@
-using QuickChat.Shared.Services;
+using QuickChat.Client.Services;
 using QuickChat.Shared.Data;
 using QuickChat.Shared.Entities;
 using QuickChat.Shared.Data.InitDataFactory;
@@ -12,7 +12,5 @@ namespace QuickChat.Client.Controllers
         {
             get { return context; }
         }
-        public static void Start() {}
-
     }
 }

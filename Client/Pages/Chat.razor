@@ -1,15 +1,53 @@
 @page "/chat"
-@using QuickChat.Shared.Services
+@using QuickChat.Client.Services
 @using QuickChat.Shared.Data
-@using QuickChat.Shared.Data.InitDataFactory
-@using QuickChat.Client.Controllers
 @using Microsoft.AspNetCore.SignalR.Client
 @inject ChatService ChatService
 
 <h3>Chat</h3>
 
-@code {
-    private static QuickChatDbContext context = DBCreateController.Context;
-    private static ChatService chatService = new ChatService(context);
+<input @bind="user" placeholder="User" />
+<input @bind="message" placeholder="Message" @onkeypress="HandleKeyPress" />
+<button @onclick="SendMessage">Send</button>
 
+<ul>
+    @foreach (var msg in messages)
+    {
+        <li>@msg</li>
+    }
+</ul>
+
+@code {
+    private string? user;
+    private string? message;
+    private List<string> messages = new List<string>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        ChatService.MessageReceived += (user, message) =>
+        {
+            var encodedMessage = $"{user}: {message}";
+            messages.Add(encodedMessage);
+            InvokeAsync(StateHasChanged);
+        };
+
+        await ChatService.StartAsync();
+    }
+
+    private async Task SendMessage()
+    {
+        if (user != null && !string.IsNullOrEmpty(message))
+        {
+            await ChatService.SendMessage(user, message);
+        }
+        message = string.Empty;
+    }
+
+    private async Task HandleKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            await SendMessage();
+        }
+    }
 }

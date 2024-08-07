@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.DependencyInjection;
 using QuickChat.Server.Hubs;
-using QuickChat.Client.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -56,5 +55,5 @@ app.UseEndpoints(endpoints =>
 app.MapRazorPages();
 app.MapControllers();
 app.MapFallbackToFile("index.html");
-DBCreateController.Start();
+
 app.Run();
