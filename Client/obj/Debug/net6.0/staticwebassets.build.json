@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s9qQw9bL15EtPThpS85ghfaB/i9AVAxjm4SYGAGxRtY=",
+  "Hash": "2xWw3z+Um6D03RUV6b8GYIFt/2RR7+VWK/XmHmxnHMc=",
   "Source": "QuickChat.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -9420,6 +9420,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/maxhotiuk/Desktop/QuickChat/Client/wwwroot/staticwebapp.config.json",
+      "SourceId": "QuickChat.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/maxhotiuk/Desktop/QuickChat/Client/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "staticwebapp.config.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/staticwebapp.config.json"
     }
   ]
 }

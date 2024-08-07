@@ -8,8 +8,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickChat.Client", "Client\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickChat.Shared", "Shared\QuickChat.Shared.csproj", "{84BE89FF-DB61-4D39-8D51-6270C2DF678C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{4BADD438-DA79-43DC-B705-CFC8ED56371A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChat_Api", "QuickChat.Api\QuickChat_Api.csproj", "{D2840D16-7E43-42FF-B7AD-FB1BC4B1200F}"
 EndProject
 Global
