@@ -12,5 +12,7 @@ namespace QuickChat.Client.Controllers
         {
             get { return context; }
         }
+        public static void Start() {}
+
     }
 }
