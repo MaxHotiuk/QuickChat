@@ -1,0 +1,33 @@
+@page "/chat"
+@using Microsoft.AspNetCore.Components.Web
+
+<PageTitle>Chat</PageTitle>
+
+<h1>Chat</h1>
+
+<p>Chat with other users in real-time.</p>
+
+<div>
+    <input type="text" @bind="@message" />
+    <button @onclick="SendMessage">Send</button>
+</div>
+<ul>
+    @foreach (var msg in messages)
+    {
+        <li>@msg</li>
+    }
+</ul>
+
+@code {
+    private List<string> messages = new List<string>();
+    private string message;
+
+    private void SendMessage()
+    {
+        if (!string.IsNullOrWhiteSpace(message))
+        {
+            messages.Add(message);
+            message = string.Empty;
+        }
+    }
+}
