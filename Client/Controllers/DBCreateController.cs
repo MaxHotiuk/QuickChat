@@ -1,4 +1,4 @@
-using QuickChat.Client.Services;
+using QuickChat.Shared.Services;
 using QuickChat.Shared.Data;
 using QuickChat.Shared.Entities;
 using QuickChat.Shared.Data.InitDataFactory;
