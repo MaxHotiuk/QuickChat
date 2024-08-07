@@ -10,3 +10,4 @@
 /Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/refint/QuickChat.Shared.dll
 /Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/QuickChat.Shared.pdb
 /Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/ref/QuickChat.Shared.dll
+/Users/maxhotiuk/Desktop/QuickChat/Shared/obj/Debug/net6.0/QuickChat.Shared.csproj.AssemblyReference.cache
