@@ -1,0 +1,52 @@
+@page "/login"
+@using QuickChat.Shared.Entities
+@using System.Net.Http
+@using static System.Net.WebRequestMethods
+@using Microsoft.JSInterop
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Login</PageTitle>
+
+<h3>Login</h3>
+
+<EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="login">Login:</label>
+        <InputText id="login" @bind-Value="loginModel.Login" />
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <InputText id="password" @bind-Value="loginModel.Password" type="password" />
+    </div>
+    <button type="submit">Login</button>
+</EditForm>
+
+@code {
+    private User loginModel = new User();
+
+    private async Task HandleLogin()
+    {
+        try
+        {
+            var httpClient = new HttpClient();
+            var response = await httpClient.PostAsJsonAsync("https://localhost:7121/api/auth/login", loginModel);
+            if (response.IsSuccessStatusCode)
+            {
+                // Display success message to the user
+                await JSRuntime.InvokeVoidAsync("alert", "Login successful!");
+            }
+            else
+            {
+                // Handle failed login
+                await JSRuntime.InvokeVoidAsync("alert", "Login failed. Please try again.");
+            }
+        }
+        catch (Exception ex)
+        {
+            await JSRuntime.InvokeVoidAsync("alert", ex.Message);
+        }
+    }
+}

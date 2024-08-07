@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets/index.html"
     },
     {
+      "Id": "/Users/maxhotiuk/Desktop/QuickChat/Client/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
       "Id": "/Users/maxhotiuk/Desktop/QuickChat/Client/wwwroot/staticwebapp.config.json",
       "PackagePath": "staticwebassets/staticwebapp.config.json"
     },

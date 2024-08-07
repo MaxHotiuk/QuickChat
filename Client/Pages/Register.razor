@@ -1,0 +1,60 @@
+@page "/register"
+@using QuickChat.Shared.Entities
+@using System.Net.Http
+@using static System.Net.WebRequestMethods
+@using Microsoft.JSInterop
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Register</PageTitle>
+
+<h3>Register</h3>
+
+<EditForm Model="@registerModel" OnValidSubmit="HandleRegister">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="name">First Name:</label>
+        <InputText id="name" @bind-Value="registerModel.Name" />
+    </div>
+    <div>
+        <label for="lastName">Last Name:</label>
+        <InputText id="lastName" @bind-Value="registerModel.LastName" />
+    </div>
+    <div>
+        <label for="login">Login:</label>
+        <InputText id="login" @bind-Value="registerModel.Login" />
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <InputText id="password" @bind-Value="registerModel.Password" type="password" />
+    </div>
+    <button type="submit">Register</button>
+</EditForm>
+
+@code {
+    private User registerModel = new User();
+
+    private async Task HandleRegister()
+    {
+        try
+        {
+            var httpClient = new HttpClient();
+            var response = await httpClient.PostAsJsonAsync("https://localhost:7121/api/auth/register", registerModel);
+            if (response.IsSuccessStatusCode)
+            {
+                // Display success message to the user
+                await JSRuntime.InvokeVoidAsync("alert", "Login successful!");
+            }
+            else
+            {
+                // Handle failed login
+                await JSRuntime.InvokeVoidAsync("alert", "Register failed. Please try again.");
+            }
+        }
+        catch (Exception ex)
+        {
+            await JSRuntime.InvokeVoidAsync("alert", ex.Message);
+        }
+    }
+}
