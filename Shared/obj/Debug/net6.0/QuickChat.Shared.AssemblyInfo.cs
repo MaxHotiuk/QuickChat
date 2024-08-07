@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuickChat.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48ec77d32c3e9eca45ffa1137794b43fe9aee4ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+886926e1c72b8dbfe4c36101af850eb23ecd3826")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuickChat.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuickChat.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
