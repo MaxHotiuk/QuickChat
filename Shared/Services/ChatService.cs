@@ -9,6 +9,7 @@ using QuickChat.Shared.Models;
 using QuickChat.Shared.Data;
 using QuickChat.Shared.Entities;
 using QuickChat.Shared.Repository;
+using Microsoft.AspNetCore.SignalR.Client;
 
 /// <summary>
 /// Service class for managing chats implementing the <see cref="ICrud"/> interface.
@@ -16,6 +17,10 @@ using QuickChat.Shared.Repository;
 public class ChatService : ICrud
 {
     private readonly IChatRepository repository;
+
+    private HubConnection? _hubConnection;
+
+    public event Action<string, string>? MessageReceived;
 
     /// <summary>
     /// Initializes a new instance of the <see cref="ChatService"/> class with a database context.
@@ -91,6 +96,29 @@ public class ChatService : ICrud
         else
         {
             throw new ArgumentException("Chat not found");
+        }
+    }
+
+    public async Task StartAsync()
+    {
+        _hubConnection = new HubConnectionBuilder()
+            //.WithUrl("https://mango-flower-07cf40d10.5.azurestaticapps.net/chathub")
+            .WithUrl("http://localhost:5173/chathub")
+            .Build();
+
+        _hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+        {
+            MessageReceived?.Invoke(user, message);
+        });
+
+        await _hubConnection.StartAsync();
+    }
+
+    public async Task SendMessage(string user, string message)
+    {
+        if (_hubConnection != null)
+        {
+            await _hubConnection.SendAsync("SendMessage", user, message);
         }
     }
 }
