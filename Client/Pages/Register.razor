@@ -9,38 +9,58 @@
 
 <h3>Register</h3>
 
-<EditForm Model="@registerModel" OnValidSubmit="HandleRegister">
+<EditForm Model="registerModel" OnValidSubmit="HandleRegister">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
     <div>
         <label for="name">First Name:</label>
-        <InputText id="name" @bind-Value="registerModel.Name" />
+        <InputText id="name" @bind-Value="registerModel.name" />
     </div>
     <div>
         <label for="lastName">Last Name:</label>
-        <InputText id="lastName" @bind-Value="registerModel.LastName" />
+        <InputText id="lastName" @bind-Value="registerModel.lastName" />
     </div>
     <div>
         <label for="login">Login:</label>
-        <InputText id="login" @bind-Value="registerModel.Login" />
+        <InputText id="login" @bind-Value="registerModel.login" />
     </div>
     <div>
         <label for="password">Password:</label>
-        <InputText id="password" @bind-Value="registerModel.Password" type="password" />
+        <InputText id="password" @bind-Value="registerModel.password" type="password" />
     </div>
     <button type="submit">Register</button>
 </EditForm>
 
 @code {
-    private User registerModel = new User();
+    private RegisterModel registerModel = new RegisterModel();
+    private class RegisterModel
+    {
+        public string? name { get; set; }
+        public string? lastName { get; set; }
+        public string? login { get; set; }
+        public string? password { get; set; }
+    }
 
     private async Task HandleRegister()
     {
         try
         {
+            if (string.IsNullOrEmpty(registerModel.login) || string.IsNullOrEmpty(registerModel.password) || string.IsNullOrEmpty(registerModel.name) || string.IsNullOrEmpty(registerModel.lastName))
+            {
+                // Handle null or empty login or password
+                await JSRuntime.InvokeVoidAsync("alert", "All fields are required.");
+                return;
+            }
+            Dictionary<string, string> dataArray = new Dictionary<string, string>
+            {
+                { "name", registerModel.name},
+                { "lastName", registerModel.lastName},
+                { "login", registerModel.login},
+                { "password", registerModel.password }
+            };
             var httpClient = new HttpClient();
-            var response = await httpClient.PostAsJsonAsync("https://localhost:7121/api/auth/register", registerModel);
+            var response = await httpClient.PostAsJsonAsync("https://localhost:7121/api/auth/register", dataArray);
             if (response.IsSuccessStatusCode)
             {
                 // Display success message to the user
@@ -48,9 +68,9 @@
             }
             else
             {
-                // Handle failed login
-                await JSRuntime.InvokeVoidAsync("alert", "Register failed. Please try again.");
-            }
+                // Handle failed register
+                await JSRuntime.InvokeVoidAsync("alert", response.ReasonPhrase);
+            } 
         }
         catch (Exception ex)
         {

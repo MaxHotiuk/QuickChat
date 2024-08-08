@@ -1,8 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QuickChat.Shared.Data;
+using QuickChat.Shared.Data.InitDataFactory;
 using QuickChat.Shared.Entities;
 using System.Threading.Tasks;
+using QuickChat.Shared.Controllers;
+using System.Linq;
+using System;
+using System.Collections.Generic;
 
 namespace QuickChat.Api.Controllers
 {
@@ -10,66 +15,52 @@ namespace QuickChat.Api.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
+        private readonly DBLoadController _dbLoadController;
         private readonly QuickChatDbContext _context;
+        private static int userId;
 
-        public AuthController(QuickChatDbContext context)
+        public AuthController(QuickChatDbContext context, DBLoadController dbLoadController)
         {
             _context = context;
+            _dbLoadController = dbLoadController;
         }
 
         // POST api/auth/register
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] User user)
+        public async Task<IActionResult> Register([FromBody] Dictionary<string, string> dataArray)
         {
-            if (user == null)
+            var users = await _context.Users.ToArrayAsync();
+            if (dataArray["name"] == null || dataArray["lastName"] == null || dataArray["login"] == null || dataArray["password"] == null)
             {
-                return BadRequest("User is null.");
+                return BadRequest("Invalid input.");
             }
-
-            if (ModelState.IsValid)
+            if (Array.Exists(users, u => u.Login == dataArray["login"]))
             {
-                // Check if the user already exists
-                var existingUser = await _context.Users
-                    .SingleOrDefaultAsync(u => u.Login == user.Login);
-
-                if (existingUser != null)
-                {
-                    return Conflict("User already exists.");
-                }
-
-                // Add and save the new user
-                _context.Users.Add(user);
-                await _context.SaveChangesAsync();
-
-                return CreatedAtAction(nameof(Register), new { id = user.Id }, user);
+                return BadRequest("User already exists.");
             }
-
-            return BadRequest(ModelState);
+            var user = new User(0, dataArray["name"], dataArray["lastName"], dataArray["login"], PasswordHelper.HashPassword(dataArray["password"]));
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+            userId = user.Id;
+            return Ok();
         }
 
         // POST api/auth/login
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] User loginUser)
+        public async Task<IActionResult> Login([FromBody] Dictionary<string, string> dataArray)
         {
-            if (loginUser == null)
+            var users = await _context.Users.ToArrayAsync();
+            var user = Array.Find(users, u => u.Login == dataArray["login"]);
+            if (user != null && dataArray["password"] != null && PasswordHelper.VerifyPassword(dataArray["password"], user.Password))
             {
-                return BadRequest("User login details are null.");
+                userId = user.Id;
             }
-
-            if (ModelState.IsValid)
+            else
             {
-                var user = await _context.Users
-                    .SingleOrDefaultAsync(u => u.Login == loginUser.Login && u.Password == loginUser.Password);
-
-                if (user == null)
-                {
-                    return Unauthorized("Invalid credentials.");
-                }
-
-                return Ok("Login successful.");
+                return BadRequest("Invalid credentials.");
             }
-
-            return BadRequest(ModelState);
+        
+            return Ok();
         }
     }
 }

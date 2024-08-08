@@ -14,6 +14,10 @@ public class User : BaseEntity
     public User()
         : base()
     {
+        this.Name = string.Empty;
+        this.LastName = string.Empty;
+        this.Login = string.Empty;
+        this.Password = string.Empty;
     }
 
     /// <summary>
@@ -24,13 +28,13 @@ public class User : BaseEntity
     /// <param name="lastName">The last name of the user.</param>
     /// <param name="login">The login of the user.</param>
     /// <param name="password">The password of the user.</param>
-    public User(int id, string name, string lastName, string login, string password, int roleId)
+    public User(int id, string? name, string? lastName, string? login, string? password)
         : base(id)
     {
-        this.Name = name;
-        this.LastName = lastName;
-        this.Login = login;
-        this.Password = password;
+        this.Name = name!;
+        this.LastName = lastName!;
+        this.Login = login!;
+        this.Password = password!;
     }
 
     /// <summary>

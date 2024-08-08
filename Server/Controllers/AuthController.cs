@@ -1,8 +1,9 @@
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using QuickChat.Shared.Entities;
 using QuickChat.Shared.Data;
+using QuickChat.Shared.Entities;
 using System.Threading.Tasks;
+using QuickChat.Shared.Controllers;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace QuickChat.Server.Controllers
 {
@@ -18,14 +19,14 @@ namespace QuickChat.Server.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] User model)
+        public async Task<IActionResult> Register([FromBody] Dictionary<string, string> dataArray)
         {
             var user = new User
             {
-                Name = model.Name,
-                LastName = model.LastName,
-                Login = model.Login,
-                Password = model.Password
+                Name = dataArray["name"],
+                LastName = dataArray["lastName"],
+                Login = dataArray["login"],
+                Password = dataArray["password"]
             };
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
@@ -33,13 +34,9 @@ namespace QuickChat.Server.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] User model)
+        public async Task<IActionResult> Login([FromBody] Dictionary<string, string> dataArray)
         {
-            var user = await _context.Users
-                .SingleOrDefaultAsync(u => u.Login == model.Login && u.Password == model.Password);
-            if (user == null)
-                return Unauthorized();
-
+            // Login logic here
             return Ok();
         }
     }

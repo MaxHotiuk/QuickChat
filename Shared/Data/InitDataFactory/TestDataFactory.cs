@@ -13,16 +13,16 @@ public class TestDataFactory : AbstractDataFactory
     {
         return new User[]
         {
-            new User(1, "John", "Doe", "john.doe", "password", 1),
-            new User(2, "Jane", "Doe", "jane.doe", "password", 2),
-            new User(3, "Alice", "Smith", "alice.smith", "password", 1),
-            new User(4, "Bob", "Smith", "bob.smith", "password", 2),
-            new User(5, "Charlie", "Brown", "charlie.brown", "password", 1),
-            new User(6, "Daisy", "Brown", "daisy.brown", "password", 2),
-            new User(7, "Eve", "Black", "eve.black", "password", 1),
-            new User(8, "Frank", "Black", "frank.black", "password", 2),
-            new User(9, "Grace", "White", "grace.white", "password", 1),
-            new User(10, "Henry", "White", "henry.white", "password", 2)
+            new User(1, "John", "Doe", "john.doe", PasswordHelper.HashPassword("password")),
+            new User(2, "Jane", "Doe", "jane.doe", PasswordHelper.HashPassword("password")),
+            new User(3, "Alice", "Smith", "alice.smith", PasswordHelper.HashPassword("password")),
+            new User(4, "Bob", "Smith", "bob.smith", PasswordHelper.HashPassword("password")),
+            new User(5, "Charlie", "Brown", "charlie.brown", PasswordHelper.HashPassword("password")),
+            new User(6, "Daisy", "Brown", "daisy.brown", PasswordHelper.HashPassword("password")),
+            new User(7, "Eve", "Black", "eve.black", PasswordHelper.HashPassword("password")),
+            new User(8, "Frank", "Black", "frank.black", PasswordHelper.HashPassword("password")),
+            new User(9, "Grace", "White", "grace.white", PasswordHelper.HashPassword("password")),
+            new User(10, "Henry", "White", "henry.white", PasswordHelper.HashPassword("password"))
         };
     }
 
