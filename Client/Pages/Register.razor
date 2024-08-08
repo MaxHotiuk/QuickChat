@@ -40,7 +40,7 @@
         try
         {
             var httpClient = new HttpClient();
-            var response = await httpClient.PostAsJsonAsync("https://mango-flower-07cf40d10.5.azurestaticapps.net/api/auth/register", registerModel);
+            var response = await httpClient.PostAsJsonAsync("https://localhost:7121/api/auth/register", registerModel);
             if (response.IsSuccessStatusCode)
             {
                 // Display success message to the user
